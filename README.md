@@ -9,5 +9,5 @@
     - Clone the repository
 ### Note: 
  - For adding heroku remote using terminal command
- - $ git remote add heroku [http://...]
- - $ git push heroku master
+   - $ git remote add heroku [http://...]
+   - $ git push heroku master
