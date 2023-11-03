@@ -3,6 +3,11 @@
 ## Set up:
   - Create a GitHub account
   - Create a Heroku account
+  - Download Python
   - Download a Python IDE (PyCharm, VisualStudio, etc.)
     - Run a simply "Hello World" to test if everything is working
     - Clone the repository
+### Note: 
+ - For adding heroku remote using terminal command
+ - $ git remote add heroku [http://...]
+ - $ git push heroku master
