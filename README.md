@@ -5,3 +5,4 @@
   - Create a Heroku account
   - Download a Python IDE (PyCharm, VisualStudio, etc.)
     - Run a simply "Hello World" to test if everything is working
+    - Clone the repository
