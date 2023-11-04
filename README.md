@@ -9,6 +9,7 @@
     - Run a simply "Hello World" to test if everything is working
     - Clone the repository
 ### Note: 
+ - [Figma link](https://www.figma.com/file/Pk1pqd4G6qbVtGGq9Px9OF/Lab3-Design?type=design&node-id=0%3A1&mode=design&t=EUte4tJtkp10fsU4-1)
  - For adding heroku remote using terminal command
    - $ git remote add heroku [http://...]
    - $ git push heroku master
