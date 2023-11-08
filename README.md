@@ -3,6 +3,7 @@
 ## Set up:
   - Create a GitHub account
   - Create a Heroku account
+  - Download Git
   - Download [Python](https://www.python.org/downloads)
   - Download [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
   - Download a Python IDE (PyCharm, VisualStudio, etc.)
