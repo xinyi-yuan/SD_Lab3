@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    width: 575px;
+    height: 88px;
+    left: 0;
+    top: 2px;
+
+    background: linear-gradient(180deg, rgba(132, 113, 246, 0.37) 0%, rgba(193, 240, 255, 0.73) 100%);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Home Page */
+.homepage {
+    position: absolute;
+    width: 200px;
+    height: 46px;
+    left: 35px;
+    bottom: 22px;
+
+    font-family: 'Metrophobic', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+
+    color: rgba(101, 38, 165, 0.63);
+
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
