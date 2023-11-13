@@ -1,0 +1,149 @@
+.header {
+    position: absolute;
+    width: 577px;
+    height: 149px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, rgba(163, 144, 215, 0.4154) 0%, rgba(227, 220, 246, 0) 100%);
+}
+
+.homeTab {
+    position: absolute;
+    width: 60px;
+    height: 27px;
+    left: 24px;
+    top: 23px;
+}
+
+.homeButton {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 500px;
+    top: 30px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background: rgba(149, 230, 255, 0.78);
+    border-radius: 10px;
+}
+
+.homeButton:hover {
+    background-color: #D0F4FF;
+}
+
+.loginTab {
+    position: absolute;
+    width: 60px;
+    height: 27px;
+    left: 408px;
+    top: 9px;
+
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.loginButton {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 550px;
+    top: 30px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(180deg, rgba(75, 163, 245, 0.79) 99.99%, rgba(110, 208, 240, 0) 100%);
+    border-radius: 10px;
+    mix-blend-mode: normal;
+}
+
+.login-button:hover {
+    background-color: #9FCBF3;
+}
+
+.signupTab {
+    position: absolute;
+    width: 60px;
+    height: 27.13px;
+    left: 484px;
+    top: 9px;
+
+    mix-blend-mode: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.signupButton {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 600px;
+    top: 30px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background: #D1A1F6;
+    border-radius: 10px;
+    mix-blend-mode: normal;
+}
+
+.signup-button:hover {
+    background-color: #E2C1FB;
+}
+
+.rec {
+    position: absolute;
+    width: 60px;
+    height: 27.13px;
+    left: 496px;
+    top: 23px;
+
+    background: #95E0F8;
+    border-radius: 10px;
+}
+
+.rec2 {
+    position: absolute;
+    width: 60px;
+    height: 27.13px;
+    left: 417px;
+    top: 23px;
+
+    background: linear-gradient(180deg, #3ACFFF 99.99%, rgba(110, 208, 240, 0) 100%);
+    border-radius: 10px;
+}
+
+.rec3 {
+    position: absolute;
+    width: 60px;
+    height: 27.13px;
+    left: 24px;
+    top: 23px;
+
+    background: rgba(149, 230, 255, 0.78);
+    border-radius: 10px;
+}
