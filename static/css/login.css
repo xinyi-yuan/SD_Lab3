@@ -1,0 +1,211 @@
+body {
+    /* Login */
+
+    position: relative;
+    width: 577px;
+    height: 756px;
+
+    background: #F8F8F8;
+
+
+    /* background */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578px;
+    height: 756px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #D0F0FE 0%, rgba(207, 225, 253, 0.21) 45.31%, rgba(206, 203, 251, 0.5) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+
+
+    /* box */
+
+    position: absolute;
+    width: 373px;
+    height: 270px;
+    left: 102px;
+    top: 94px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+
+    /* Sign In */
+
+    position: absolute;
+    width: 256px;
+    height: 24px;
+    left: 59px;
+    top: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* username tbox */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: 168px;
+    top: 71px;
+
+    background: #FAFAFA;
+    border: 0.5px solid rgba(160, 160, 160, 0.627451);
+    border-radius: 5px;
+
+
+    /* Email: */
+
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 76px;
+    top: 71px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #000000;
+
+
+    /* password tbox */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: 168px;
+    top: 109px;
+
+    background: #FAFAFA;
+    border: 0.5px solid rgba(160, 160, 160, 0.627451);
+    border-radius: 5px;
+
+
+    /* Password: */
+
+    position: absolute;
+    width: 82px;
+    height: 20px;
+    left: 76px;
+    top: 109px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #000000;
+
+
+    /* button */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 88px;
+    height: 24px;
+    left: 143px;
+    top: 152px;
+
+    background: linear-gradient(180deg, rgba(157, 232, 255, 0) 0%, rgba(82, 213, 255, 0.2) 100%), #DBEEFF;
+    border: 1px solid #6C9FC5;
+    border-radius: 3px;
+
+
+    /* Sign In */
+
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    left: 149px;
+    top: 156px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+
+
+    /* Forgot password */
+
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 117px;
+    top: 199px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4D748F;
+
+
+    /* Sign up */
+
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 178px;
+    top: 224px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4D748F;
+
+
+    /* Don’t have an account? */
+
+    position: absolute;
+    width: 197px;
+    height: 24px;
+    left: 56px;
+    top: 224px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+
+}
