@@ -1,7 +1,7 @@
 .header {
     position: absolute;
-    width: 577px;
-    height: 149px;
+    width: 100%;
+    height: 30%;
     left: 0px;
     top: 0px;
 
@@ -12,8 +12,8 @@
     position: absolute;
     width: 60px;
     height: 27px;
-    left: 24px;
-    top: 23px;
+    left: -450px;
+    top: 9px;
 }
 
 .homeButton {
@@ -74,7 +74,7 @@
     mix-blend-mode: normal;
 }
 
-.login-button:hover {
+.loginButton:hover {
     background-color: #9FCBF3;
 }
 
@@ -115,35 +115,90 @@
     background-color: #E2C1FB;
 }
 
-.rec {
+.content {
     position: absolute;
-    width: 60px;
-    height: 27.13px;
-    left: 496px;
-    top: 23px;
+    width: 100%;
+    height: 300%;
+    left: 0;
+    top: 30%;
 
-    background: #95E0F8;
-    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(219, 229, 255, 0) 0%, #DBF9FF 100%);
 }
 
-.rec2 {
+.xinyiIntro {
     position: absolute;
-    width: 60px;
-    height: 27.13px;
-    left: 417px;
-    top: 23px;
+    width: 324px;
+    height: 175px;
+    left: 500px;
+    top: 10px;
 
-    background: linear-gradient(180deg, #3ACFFF 99.99%, rgba(110, 208, 240, 0) 100%);
-    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 24px;
+
+    color: rgba(0, 0, 0, 0.77);
 }
 
-.rec3 {
-    position: absolute;
-    width: 60px;
-    height: 27.13px;
-    left: 24px;
-    top: 23px;
+.highlight {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 24px;
 
-    background: rgba(149, 230, 255, 0.78);
-    border-radius: 10px;
+    color: #8FC2F0;
 }
+
+.profileImg {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 80px;
+    top: 0;
+
+    padding: 20px; /* Space inside the box */
+    border-radius: 10px; /* Rounded corners */
+    margin: 10px; /* Space outside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.aboutBox {
+    position: absolute;
+    width: 90%;
+    height: 500px;
+    left: 80px;
+    top: 400px;
+
+    background: rgba(217, 217, 217, 0.19);
+    border-radius: 90px;
+}
+
+.aboutText {
+    position: absolute;
+    width: 435px;
+    height: 230px;
+    left: 66px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.divideAC {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    top: 1000px;
+
+    opacity: 1;
+    border: 1.3px solid rgba(0, 0, 0, 0.7);
+}
+

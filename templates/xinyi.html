@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/xinyi.css">
     <title>Xinyi's Page</title>
 </head>
 <body>
     <div class="header">
         <div class="homeTab">
-            <div class="homeButton">
-                <a href="home.html" class="homeButton">Home</a>
-            </div>
-            <div class="loginButton">
-                <a href="login.html" class="loginButton">Login</a>
-            </div>
-            <div class="signupTab">
-                <a href="signup.html" class="signupButton">SignUp</a>
-            </div>
+            <a href="{{ url_for('home') }}" class="homeButton">Home</a>
+        </div>
+        <div class="loginTab">
+            <a href="{{ url_for('login') }}" class="loginButton">Login</a>
+        </div>
+        <div class="signupTab">
+            <a href="{{ url_for('signup') }}" class="signupButton">SignUp</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="xinyiIntro">Hello,<br><br> I'm <span class="highlight">Xinyi Yuan</span></div>
+        <div class="profileImg"></div>
+        <div class="aboutBox">
+            <div class="aboutText">About me</div>
+        </div>
+        <div class="divideAC"></div>
+        <div class="contact">
+
         </div>
     </div>
 </body>
