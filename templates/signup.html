@@ -17,10 +17,14 @@
         <div class="pword2_box"></div>
         <div class="name_text">Display name:</div>
         <div class="name_box"></div>
-        <div class="button"></div>
+        <div class="button">
+            <a href="{{ url_for('home') }}"</a>
+        </div>
         <div class="button_text">Create Account</div>
         <div class="sign_in_text">Already have an account?</div>
-        <div class="sign_in">Sign in</div>
+        <div class="sign_in">
+            <a href="{{ url_for('login') }}">Sign in</a>
+        </div>
     </div>
 </body>
 </html>
