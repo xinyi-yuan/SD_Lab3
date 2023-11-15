@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="/static/css/login.css">
-    <title>Forgot</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/forgot.css">
+    <title>Forgot Password</title>
 </head>
 <body>
     <div class="header">
@@ -11,11 +11,12 @@
     <div class="box">
         <div class="title">Forgot Password</div>
         <div class="notif">A temporary PIN has been sent to</div>
+        <div class="email"></div>
         <div class="pin_text">Enter PIN:</div>
         <label for="pin">
             <input type="text" required class="pin_tbox" name="pin" id="pin">
         </label>
-        <button class="button"><a href="{{ url_for('reset') }}"></a></button>
+        <a href="{{ url_for('reset') }}"><button class="button"></button></a>
         <div class="button_text">Reset Password</div>
         <div class="forgot">Forgot password</div>
         <div class="resend">Resend PIN</div>
