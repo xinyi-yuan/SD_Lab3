@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/nathan.css">
     <title>Nate's Page</title>
 </head>
 <body>
     <div class="header">
         <div class="homeTab">
-            <div class="homeButton">
-                <a href="home.html" class="homeButton">Home</a>
+            <a href="{{ url_for('home') }}" class="homeButton">Home</a>
+        </div>
+        <div class="loginTab">
+            <a href="{{ url_for('login') }}" class="loginButton">Login</a>
+        </div>
+        <div class="signupTab">
+            <a href="{{ url_for('signup') }}" class="signupButton">SignUp</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="nathanIntro">Hi,<br><br> I'm <span class="highlight">Nathan Kofron</span></div>
+        <div class="profileImg"></div>
+        <div class="aboutBox">
+            <div class="aboutText">About me</div>
+        </div>
+        <div class="divideAC"></div>
+        <div class="contact">
+            <div class="contactMe">Contact Me</div>
+            <div class="contactBox">
+                <label for="fn">
+                    <input type="text" class="fnBox" name="firstName" id="fn" placeholder="First Name">
+                </label>
+                <label for="ln">
+                    <input type="text" class="lnBox" name="lastName" id="ln" placeholder="Last Name">
+                </label>
+                <label for="em">
+                    <input type="text" class="emBox" name="email" id="em" placeholder="Email">
+                </label>
+                <label for="pn">
+                    <input type="tel" class="pnBox" name="phoneNum" id="pn" placeholder="Phone Number">
+                </label>
+                <label for="ms">
+                    <textarea class="msBox" name="message" id="ms" placeholder="Message"></textarea>
+                </label>
+                <button class="sendButton">SEND IT</button>
             </div>
-            <div class="loginButton">
-                <a href="login.html" class="loginButton">Login</a>
-            </div>
-            <div class="signupTab">
-                <a href="signup.html" class="signupButton">SignUp</a>
-            </div>
+        </div>
+        <div class="divideCC"></div>
+        <div class="commentBlock">
+            <label for="cm">
+                <textarea class="commentBox" name="commentBox" id="cm" placeholder="Add a comment"></textarea>
+            </label>
+            <div class="userPic"></div>
+            <button class="submitComment">Submit</button>
         </div>
     </div>
 </body>
