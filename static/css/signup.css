@@ -1,19 +1,20 @@
-body {
+.signup {
     /* Signup */
 
     position: relative;
-    width: 577px;
+    width: 100%;
     height: 756px;
 
     background: #FFFFFF;
+}
 
-
+.background {
     /* background */
 
     box-sizing: border-box;
 
     position: absolute;
-    width: 578px;
+    width: 100%;
     height: 756px;
     left: 0px;
     top: 0px;
@@ -21,8 +22,9 @@ body {
     background: linear-gradient(180deg, #D0F0FE 0%, rgba(207, 225, 253, 0.21) 45.31%, rgba(206, 203, 251, 0.5) 100%);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
+}
 
-
+.box {
     /* box */
 
     position: absolute;
@@ -34,8 +36,9 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+}
 
-
+.signup {
     /* Sign Up */
 
     position: absolute;
@@ -52,8 +55,10 @@ body {
     text-align: center;
 
     color: #000000;
+}
 
 
+.user_box {
     /* username tbox */
 
     box-sizing: border-box;
@@ -67,8 +72,9 @@ body {
     background: #FAFAFA;
     border: 0.5px solid rgba(160, 160, 160, 0.627451);
     border-radius: 5px;
+}
 
-
+.email {
     /* Email: */
 
     position: absolute;
@@ -85,8 +91,10 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
 
+.pword_box {
     /* password tbox */
 
     box-sizing: border-box;
@@ -100,8 +108,9 @@ body {
     background: #FAFAFA;
     border: 0.5px solid rgba(160, 160, 160, 0.627451);
     border-radius: 5px;
+}
 
-
+.pword_text {
     /* Password: */
 
     position: absolute;
@@ -118,8 +127,10 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
 
+.name_box {
     /* username tbox */
 
     box-sizing: border-box;
@@ -133,8 +144,9 @@ body {
     background: #FAFAFA;
     border: 0.5px solid rgba(160, 160, 160, 0.627451);
     border-radius: 5px;
+}
 
-
+.name_text {
     /* Display Name: */
 
     position: absolute;
@@ -151,8 +163,10 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
 
+.pword2_box {
     /* password2 tbox */
 
     box-sizing: border-box;
@@ -166,8 +180,9 @@ body {
     background: #FAFAFA;
     border: 0.5px solid rgba(160, 160, 160, 0.627451);
     border-radius: 5px;
+}
 
-
+.pword2_text {
     /* Confirm Password: */
 
     position: absolute;
@@ -184,8 +199,10 @@ body {
     text-align: right;
 
     color: #000000;
+}
 
 
+.button {
     /* button */
 
     box-sizing: border-box;
@@ -199,8 +216,9 @@ body {
     background: linear-gradient(180deg, rgba(157, 232, 255, 0) 0%, rgba(82, 213, 255, 0.2) 100%), #DBEEFF;
     border: 1px solid #6C9FC5;
     border-radius: 3px;
+}
 
-
+.button_text {
     /* Create Account */
 
     position: absolute;
@@ -217,8 +235,10 @@ body {
     text-align: center;
 
     color: #000000;
+}
 
 
+.sign_in {
     /* Sign in */
 
     position: absolute;
@@ -236,8 +256,10 @@ body {
     text-decoration-line: underline;
 
     color: #4D748F;
+}
 
 
+.sign_in_text {
     /* Already have an account? */
 
     position: absolute;
@@ -254,6 +276,4 @@ body {
     text-align: center;
 
     color: #000000;
-
-
 }
