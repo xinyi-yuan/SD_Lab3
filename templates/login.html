@@ -20,7 +20,9 @@
         </label>
         <button class="button"></button>
         <div class="button_text">Sign In</div>
-        <div class="forgot">Forgot password</div>
+        <div class="forgot">
+            <a href="{{ url_for('forgot') }}">Forgot password</a>
+        </div>
         <div class="sign_up_text">Don't have an account?</div>
         <div class="sign_up">
             <a href="{{ url_for('signup') }}">Sign up</a>
