@@ -8,7 +8,6 @@ app.secret_key = "0000"
 def home():
     return render_template("home.html")
 
-
 @app.route("/xinyi")
 def xinyi():
     return render_template("xinyi.html")
@@ -42,6 +41,14 @@ def login():
 @app.route("/signup")
 def signup():
     return render_template("signup.html")
+
+@app.route("/forgot")
+def forgot():
+    return render_template("forgot.html")
+
+@app.route("/reset")
+def reset():
+    return render_template("reset.html")
 
 
 if __name__ == "__main__":
