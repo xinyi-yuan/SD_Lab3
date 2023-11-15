@@ -111,7 +111,7 @@
     mix-blend-mode: normal;
 }
 
-.signup-button:hover {
+.signupButton:hover {
     background-color: #E2C1FB;
 }
 
@@ -239,7 +239,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 17px;
+    line-height: 22px;
 }
 
 .fnText {
@@ -421,7 +421,7 @@
     font-style: normal;
     font-weight: 800;
     font-size: 20px;
-    line-height: 17px;
+    line-height: 25px;
 }
 
 .msBox::placeholder {
@@ -429,7 +429,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
-    line-height: 17px;
+    line-height: 25px;
 }
 
 .msBox:hover {
