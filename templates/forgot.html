@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="/static/css/login.css">
-    <title>Forgot Password</title>
+    <title>Forgot</title>
 </head>
 <body>
     <div class="header">
@@ -15,7 +15,7 @@
         <label for="pin">
             <input type="text" required class="pin_tbox" name="pin" id="pin">
         </label>
-        <button class="button"></button>
+        <button class="button"><a href="{{ url_for('reset') }}"></a></button>
         <div class="button_text">Reset Password</div>
         <div class="forgot">Forgot password</div>
         <div class="resend">Resend PIN</div>
