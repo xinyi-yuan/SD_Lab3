@@ -464,10 +464,10 @@
 
 .commentBlock {
     position: absolute;
-    width: 535px;
-    height: 73px;
-    left: 15px;
-    top: 990px;
+    width: 80%;
+    height: auto;
+    left: 100px;
+    top: 1000px;
 }
 
 .commento {
