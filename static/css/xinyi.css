@@ -117,6 +117,7 @@
 
 .content {
     position: absolute;
+    overflow: auto;
     width: 100%;
     min-height: 300%;
     left: 0;
