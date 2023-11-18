@@ -48,11 +48,18 @@
         </div>
         <div class="divideCC"></div>
         <div class="commentBlock">
+            <!--
             <label for="cm">
                 <textarea class="commentBox" name="commentBox" id="cm" placeholder="Add a comment"></textarea>
             </label>
+            -->
+            <div class="commentbox"></div>
+            <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+            <script>commentBox('5712976224976896-proj')</script>
             <div class="userPic"></div>
+            <!--
             <a href="{{ url_for('xinyi') }}"><button class="submitComment">Submit</button></a>
+            -->
         </div>
     </div>
 </body>
