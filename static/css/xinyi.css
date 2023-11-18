@@ -493,7 +493,7 @@
     line-height: 25px;
 }
 
-.commentBox::placeholder {
+.commento::placeholder {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

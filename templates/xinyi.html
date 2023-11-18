@@ -53,9 +53,14 @@
                 <textarea class="commentBox" name="commentBox" id="cm" placeholder="Add a comment"></textarea>
             </label>
             -->
-            <script defer src="https://cdn.commento.io/js/commento.js"></script>
-            <div id="commento"></div>
-            <div class="userPic"></div>
+            <div class="commentBlock">
+                <div class="commento" id="commento"></div>
+                <script defer
+                  src="http://commento.example.com/js/commento.js">
+                </script>
+                <div class="userPic"></div>
+            </div>
+
             <!--
             <a href="{{ url_for('xinyi') }}"><button class="submitComment">Submit</button></a>
             -->
