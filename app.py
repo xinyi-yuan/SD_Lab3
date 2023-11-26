@@ -1,12 +1,24 @@
+import os
+import psycopg2
 from flask import Flask, render_template, request, flash, session, redirect, url_for
+from werkzeug.security import generate_password_hash, check_password_hash
+from dotenv import load_dotenv
 
 app = Flask(__name__)
 app.secret_key = "0000"
 
+load_dotenv()  # Load environment variables from .env file
+
+DATABASE_URL = os.environ.get('DATABASE_URL')
+if DATABASE_URL is None:
+    raise ValueError("No DATABASE_URL set for Flask application")
+conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+cur = conn.cursor()
 
 @app.route("/")
 def home():
     return render_template("home.html")
+
 
 @app.route("/xinyi")
 def xinyi():
@@ -38,7 +50,7 @@ def login():
     return render_template("login.html")
 
 
-@app.route("/signup")
+@app.route("/signup", methods=['GET', 'POST'])
 def signup():
     return render_template("signup.html")
 
@@ -52,4 +64,4 @@ def reset():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
