@@ -5,7 +5,7 @@
     left: 0px;
     top: 0px;
 
-    background: linear-gradient(180deg, rgba(163, 144, 215, 0.4154) 0%, rgba(227, 220, 246, 0) 100%);
+    background: linear-gradient(90deg, rgba(163, 144, 215, 0.4154) 0%, rgba(227, 220, 246, 0) 100%);
 }
 
 .homeTab {
@@ -153,15 +153,16 @@
 
 .profileImg {
     position: absolute;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 260px;
     left: 80px;
-    top: 0;
+    top: 0px;
 
     padding: 20px; /* Space inside the box */
     border-radius: 10px; /* Rounded corners */
     margin: 10px; /* Space outside the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
 .aboutBox {
@@ -177,7 +178,7 @@
 
 .aboutText {
     position: absolute;
-    width: 435px;
+    width: 80%;
     height: 230px;
     left: 50px;
     top: 30px;
@@ -187,6 +188,22 @@
     font-weight: 600;
     font-size: 30px;
     line-height: 29px;
+
+    color: #000000;
+}
+
+.aboutBodyText {
+    position: absolute;
+    width: 80%;
+    height: 230px;
+    left: 50px;
+    top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
 
     color: #000000;
 }
