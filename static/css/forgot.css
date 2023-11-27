@@ -1,0 +1,211 @@
+.forgot {
+    /* Forgot Password */
+
+    position: relative;
+    width: 577px;
+    height: 756px;
+
+    background: #FFFFFF;
+}
+
+.background {
+    /* background */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 578px;
+    height: 756px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(180deg, #D0F0FE 0%, rgba(207, 225, 253, 0.21) 45.31%, rgba(206, 203, 251, 0.5) 100%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+.box {
+    /* box */
+
+    position: absolute;
+    width: 400px;
+    height: 286px;
+    left: 89px;
+    top: 94px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.title {
+    /* Forgot Password */
+
+    position: absolute;
+    width: 256px;
+    height: 24px;
+    left: 59px;
+    top: 27px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.pin_tbox {
+    /* pin tbox */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120px;
+    height: 18px;
+    left: 183px;
+    top: 130px;
+
+    background: #FAFAFA;
+    border: 0.5px solid rgba(160, 160, 160, 0.627451);
+    border-radius: 5px;
+}
+
+.pin_text {
+    /* Enter PIN: */
+
+    position: absolute;
+    width: 99px;
+    height: 20px;
+    left: 70px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.notif {
+    /* A temporary PIN has been sent to */
+
+    position: absolute;
+    width: 193px;
+    height: 15px;
+    left: 90px;
+    top: 71px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+
+.button {
+    /* button */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 127px;
+    height: 24px;
+    left: 135px;
+    top: 171px;
+
+    background: linear-gradient(180deg, rgba(157, 232, 255, 0) 0%, rgba(82, 213, 255, 0.2) 100%), #DBEEFF;
+    border: 1px solid #6C9FC5;
+    border-radius: 3px;
+}
+
+.button_text {
+    /* Reset Password */
+
+    position: absolute;
+    width: 127px;
+    height: 18px;
+    left: 150px;
+    top: 175px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.resend {
+    /* Resend PIN */
+
+    position: absolute;
+    width: 66px;
+    height: 15px;
+    left: 166px;
+    top: 216px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4D748F;
+}
+
+.back {
+    /* Back to login */
+
+    position: absolute;
+    width: 74px;
+    height: 15px;
+    left: 162px;
+    top: 239px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #4D748F;
+}
+
+.email {
+    /* [email]. */
+
+    position: absolute;
+    width: 43px;
+    height: 15px;
+    left: 177px;
+    top: 93px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+}
+

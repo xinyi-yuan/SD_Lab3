@@ -7,32 +7,39 @@
 <body>
     <div class="signup"></div>
     <div class="background"></div>
-    <label class="box">
+    <div class="box">
         <div class="signup">Sign Up</div>
-        <div class="email">Email:</div>
-        <label for="email">
-            <input type="text" class="user_box" name="email" id="email">
-        </label>
-        <div class="pword_text">Password:</div>
-        <label for="pword">
-            <input type="password" class="pword_box" name="pword" id="pword">
-        </label>
-        <div class="pword2_text">Confirm password:</div>
-        <div class="pword2_box"></div>
-        <label for="pword2">
-            <input type="password" class="pword2_box" name="pword2" id="pword2">
-        </label>
-        <div class="name_text">Display name:</div>
-        <div class="name_box"></div>
-        <label for="name">
-            <input type="text" class="name_box" name="name" id="name">
-        </label>
-        <button class="button"></button>
-        <div class="button_text">Create Account</div>
+
+        <form method="POST" action="/signup">
+            <div class="email">Email:</div>
+            <label for="email">
+                <input type="text" class="user_box" name="email" id="email" required>
+            </label>
+
+            <div class="pword_text">Password:</div>
+            <label for="pword">
+                <input type="password" class="pword_box" name="pword" id="pword" required>
+            </label>
+
+            <div class="pword2_text">Confirm password:</div>
+            <!-- <div class="pword2_box"></div> -->
+            <label for="pword2">
+                <input type="password" class="pword2_box" name="pword2" id="pword2" required>
+            </label>
+
+            <div class="name_text">Display name:</div>
+            <!--<div class="name_box"></div>-->
+            <label for="name">
+                <input type="text" class="name_box" name="name" id="name" required>
+            </label>
+
+            <button type="submit" class="button">Create Account</button>
+        </form>
+
         <div class="sign_in_text">Already have an account?</div>
         <div class="sign_in">
             <a href="{{ url_for('login') }}">Sign in</a>
         </div>
-    </label>
+    </div>
 </body>
 </html>

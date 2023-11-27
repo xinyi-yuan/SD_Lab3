@@ -10,12 +10,16 @@
         <div class="projectTab">
             <a href="{{ url_for('project') }}" class="projects-button">Projects</a>
         </div>
-        <div class="loginTab">
-            <a href="{{ url_for('login') }}" class="login-button">Login</a>
-        </div>
-        <div class="signupTab">
-            <a href="{{ url_for('signup') }}" class="signup-button">Sign Up</a>
-        </div>
+        {% if 'id' in session %}
+            <div class="welcomeText">Welcome, {{ session['user_name'] }}!</div>
+            <div class="logoutTab">
+                <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+            </div>
+        {% else %}
+            <div class="loginTab">
+                <a href="{{ url_for('login') }}" class="login-button">Login</a>
+            </div>
+        {% endif %}
     </div>
     <div class="content">
         <div class="teamName">Quantum Quokkas</div>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/login.css">
+    <title>Forgot</title>
+</head>
+<body>
+    <div class="header">
+        <div class="background"></div>
+    </div>
+    <div class="box">
+        <div class="title">Forgot Password</div>
+        <div class="notif">A temporary PIN has been sent to</div>
+        <div class="pin_text">Enter PIN:</div>
+        <label for="pin">
+            <input type="text" required class="pin_tbox" name="pin" id="pin">
+        </label>
+        <button class="button"><a href="{{ url_for('reset') }}"></a></button>
+        <div class="button_text">Reset Password</div>
+        <div class="forgot">Forgot password</div>
+        <div class="resend">Resend PIN</div>
+        <div class="back">
+            <a href="{{ url_for('login') }}">Back to login</a>
+        </div>
+    </div>
+</body>
+</html>

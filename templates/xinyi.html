@@ -9,12 +9,6 @@
         <div class="homeTab">
             <a href="{{ url_for('home') }}" class="homeButton">Home</a>
         </div>
-        <div class="loginTab">
-            <a href="{{ url_for('login') }}" class="loginButton">Login</a>
-        </div>
-        <div class="signupTab">
-            <a href="{{ url_for('signup') }}" class="signupButton">SignUp</a>
-        </div>
     </div>
     <div class="content">
         <div class="xinyiIntro">Hello,<br><br> I'm <span class="highlight">Xinyi Yuan</span></div>
@@ -48,11 +42,11 @@
         </div>
         <div class="divideCC"></div>
         <div class="commentBlock">
-            <label for="cm">
-                <textarea class="commentBox" name="commentBox" id="cm" placeholder="Add a comment"></textarea>
-            </label>
-            <div class="userPic"></div>
-            <a href="{{ url_for('xinyi') }}"><button class="submitComment">Submit</button></a>
+            <!-- From commento: https://commento.io/dashboard#modal-close -->
+            <div class="commentBlock">
+                <script defer src="https://cdn.commento.io/js/commento.js"></script>
+                <div id="commento"></div>
+            </div>
         </div>
     </div>
 </body>
