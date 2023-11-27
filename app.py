@@ -81,7 +81,7 @@ def login():
             return redirect(url_for('home'))
         else:
             flash('Invalid user name or password, try again', "error")
-            #return redirect(url_for('login'))
+            return redirect(url_for('login'))
     return render_template("login.html")
 
 
@@ -97,7 +97,7 @@ def signup():
             flash('Passwords do no match!')
             return redirect(url_for('signup'))
 
-        hashed_password = generate_password_hash(password)
+        hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
 
         try:
             cur = conn.cursor()
@@ -110,7 +110,7 @@ def signup():
         except Exception as e:
             conn.rollback()
             flash("Error: " + str(e), "error")
-            #return redirect(url_for('sign_up'))
+            return redirect(url_for('sign_up'))
     return render_template("signup.html")
 
 
