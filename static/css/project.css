@@ -1,0 +1,542 @@
+/* Projects Page */
+
+position: relative;
+width: 577px;
+height: 1225px;
+
+background: #FFFFFF;
+
+
+/* Header */
+
+position: absolute;
+width: 577px;
+height: 165px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(163, 144, 215, 0.4154) 0%, rgba(227, 220, 246, 0) 100%);
+
+
+/* Home tab */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 24px;
+top: 23px;
+
+
+
+/* Project tab */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 24px;
+top: 23px;
+
+mix-blend-mode: darken;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 24px;
+top: 23px;
+
+background: rgba(149, 230, 255, 0.78);
+border-radius: 10px;
+
+
+/* Home */
+
+position: absolute;
+width: 51px;
+height: 12px;
+left: calc(50% - 51px/2 - 234px);
+top: 31px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #6E6969;
+
+
+
+/* Login tab */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 417px;
+top: 23px;
+
+mix-blend-mode: exclusion;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 417px;
+top: 23px;
+
+background: linear-gradient(180deg, #3ACFFF 99.99%, rgba(110, 208, 240, 0) 100%);
+border-radius: 10px;
+
+
+/* Login */
+
+position: absolute;
+width: 51px;
+height: 27px;
+left: calc(50% - 51px/2 + 159px);
+top: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Sign up tab */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 496px;
+top: 23px;
+
+mix-blend-mode: difference;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 60px;
+height: 27.13px;
+left: 496px;
+top: 23px;
+
+background: #95E0F8;
+border-radius: 10px;
+
+
+/* Sign up */
+
+position: absolute;
+width: 51px;
+height: 27px;
+left: calc(50% - 51px/2 + 238px);
+top: 23px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Main section */
+
+position: absolute;
+width: 577px;
+height: 1158px;
+left: 0px;
+top: 67px;
+
+background: linear-gradient(180deg, rgba(219, 229, 255, 0) 0%, #DBF9FF 100%);
+
+
+/* Projects */
+
+position: absolute;
+width: 509px;
+height: 1068px;
+left: 34px;
+top: 6px;
+
+
+
+/* Lab3 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: 34px;
+top: 777px;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: calc(50% - 509px/2);
+top: 777px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Picture of Lab3 */
+
+position: absolute;
+width: 188px;
+height: 168px;
+left: 57px;
+top: 818px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 188px;
+height: 168px;
+left: 57px;
+top: 818px;
+
+background: #D9D9D9;
+
+
+/* Picture of Lab3 */
+
+position: absolute;
+width: 132px;
+height: 76px;
+left: 85px;
+top: 860px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Description */
+
+position: absolute;
+width: 266px;
+height: 241px;
+left: 258px;
+top: 817px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 266px;
+height: 241px;
+left: 258px;
+top: 817px;
+
+background: #DBF9FF;
+
+
+/* Brief Description Tools used Date/Duration */
+
+position: absolute;
+width: 264.03px;
+height: 238.15px;
+left: 259.97px;
+top: 819.85px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+
+
+
+/* Website */
+
+position: absolute;
+width: 133px;
+height: 20px;
+left: 57px;
+top: 797px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lab2 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: 34px;
+top: 430px;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: calc(50% - 509px/2);
+top: 430px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Picture of Lab2 */
+
+position: absolute;
+width: 188px;
+height: 241px;
+left: 336px;
+top: 473px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 188px;
+height: 241px;
+left: 336px;
+top: 473px;
+
+background: url(receiver_resized.png);
+
+
+/* Description */
+
+position: absolute;
+width: 266.03px;
+height: 241.15px;
+left: 57px;
+top: 473px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 266px;
+height: 241px;
+left: 57px;
+top: 473px;
+
+background: #DBF9FF;
+
+
+/* For this lab we implemented an “electric eye” light beam-interrupter safety system transmitting an infrared signal from a given transmitter to a designed receiver. We used discrete component filters to implement sufficient filtering so as to react only to the presence or absence of the IR signal and a microcontroller interfaced to a Python process to send an alert text message when the beam is interrupted. */
+
+position: absolute;
+width: 264.03px;
+height: 238.15px;
+left: 59px;
+top: 476px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #000000;
+
+
+
+/* Receiver */
+
+position: absolute;
+width: 53px;
+height: 20px;
+left: 469px;
+top: 453px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Lab1 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: 34px;
+top: 83px;
+
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 509px;
+height: 297px;
+left: calc(50% - 509px/2);
+top: 83px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+
+
+/* Picture of Lab1 */
+
+position: absolute;
+width: 188px;
+height: 243px;
+left: 57px;
+top: 126px;
+
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 188px;
+height: 243px;
+left: 57px;
+top: 126px;
+
+background: url(Box_front_resized.png);
+
+
+/* Description */
+
+position: absolute;
+width: 267px;
+height: 245px;
+left: 258px;
+top: 126px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 266px;
+height: 245px;
+left: 258px;
+top: 126px;
+
+background: #DBF9FF;
+
+
+/* We created a temperature sensing system that displays the temperature in degrees Celsius on a hardware display and communicates with a computer that logs the temperature data and shows a graph of the temperature over time. The system sends an alert text message if the temperature goes outside set thresholds. We used an Arduino Uno, LCD display, DHT11 temperature sensor, and computer connected via Bluetooth serial interface with the computer application in Python. */
+
+position: absolute;
+width: 264px;
+height: 245px;
+left: 261px;
+top: 126px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 19px;
+
+color: #000000;
+
+
+
+/* Temperature */
+
+position: absolute;
+width: 213px;
+height: 20px;
+left: 57px;
+top: 103px;
+
+font-family: 'Abel';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Group Projects */
+
+position: absolute;
+width: 299px;
+height: 65px;
+left: 139px;
+top: 6px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 58px;
+display: flex;
+align-items: center;
+text-align: center;
+
+background: linear-gradient(180deg, #42484B 0%, #01B9F4 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
