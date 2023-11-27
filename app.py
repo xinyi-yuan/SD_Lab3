@@ -11,7 +11,7 @@ app.permanent_session_lifetime = timedelta(minutes=10)
 
 load_dotenv()  # Load environment variables from .env file
 
-DATABASE_URL = os.environ.get('DATABASE_URL')
+DATABASE_URL = os.environ['DATABASE_URL']
 if DATABASE_URL is None:
     raise ValueError("No DATABASE_URL set for Flask application")
 conn = psycopg2.connect(DATABASE_URL, sslmode='require')
