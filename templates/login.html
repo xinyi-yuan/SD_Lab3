@@ -10,16 +10,19 @@
     </div>
     <div class="box">
         <div class="title">Sign In</div>
-        <div class="user_text">Email:</div>
-        <label for="email">
-            <input type="text" required class="user_box" name="email" id="email">
-        </label>
-        <div class="pword_text">Password:</div>
-        <label for="pword">
-            <input type="password" required class="pword_box" name="pword" id="pword">
-        </label>
-        <button class="button"></button>
-        <div class="button_text">Sign In</div>
+        <form method="POST" action="/login">
+            <div class="user_text">Name:</div>
+            <label for="name">
+                <input type="text" class="user_box" name="name" id="name" required>
+            </label>
+
+            <div class="pword_text">Password:</div>
+            <label for="pword">
+                <input type="password" class="pword_box" name="pword" id="pword" required>
+            </label>
+
+            <button type="submit" class="button_text">Sign In</button>
+        </form>
         <div class="forgot">
             <a href="{{ url_for('forgot') }}">Forgot password</a>
         </div>
