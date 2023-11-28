@@ -1,4 +1,5 @@
 import os
+import re
 import psycopg2
 from flask import Flask, render_template, request, flash, session, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -67,7 +68,6 @@ def login():
     if request.method == 'POST':
         name = request.form['name']
         password = request.form['pword']
-
         cur = conn.cursor()
         cur.execute("SELECT id, email, password, user_name FROM users WHERE user_name = %s", (name,))
         user = cur.fetchone()
@@ -93,24 +93,46 @@ def signup():
         confirm_pword = request.form['pword2']
         user_name = request.form['name']
 
+        # Check if email is in valid form
+        if not check_email(email):
+            flash('Email is not valid!', "error")
+            return redirect(url_for('signup'))
+
+        # Check if two password field match
         if password != confirm_pword:
-            flash('Passwords do no match!')
+            flash('Passwords do no match!', "error")
             return redirect(url_for('signup'))
 
         hashed_password = generate_password_hash(password, method='pbkdf2:sha256')
 
         try:
             cur = conn.cursor()
+
+            # Check if username already exists
+            cur.execute("SELECT user_name FROM users WHERE user_name = %s", (user_name,))
+            exist_username = cur.fetchone()
+            if exist_username:
+                flash("User Name already exists. Please choose another one.", "error")
+                return redirect(url_for('signup'))
+
+            # Check if email already exists
+            cur.execute("SELECT email FROM users WHERE email = %s", (email,))
+            exist_email = cur.fetchone()
+            if exist_email:
+                flash("Email already exists. Please choose another one.", "error")
+                return redirect(url_for('signup'))
+
+            # Try to insert
             cur.execute("INSERT INTO users (email, password, user_name) VALUES (%s, %s, %s)",
                         (email, hashed_password, user_name))
             conn.commit()
             cur.close()
-            flash("Account created successfully!")
+            flash("Account created successfully!", "success")
             return redirect(url_for('login'))
         except Exception as e:
             conn.rollback()
-            flash("Error: " + str(e), "error")
-            return redirect(url_for('sign_up'))
+            flash("Unexpected error, try again.", "error")
+            return redirect(url_for('signup'))
     return render_template("signup.html")
 
 
@@ -140,6 +162,11 @@ def before_request():
 def is_logged_in():
     return 'id' in session
 
+
+# Helper function to check if email is in valid format
+def check_email(email):
+    regex = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+    return re.match(regex, email) is not None
 
 if __name__ == "__main__":
     app.run(debug=True)

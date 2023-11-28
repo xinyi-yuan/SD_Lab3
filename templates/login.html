@@ -8,6 +8,22 @@
     <div class="header">
         <div class="background"></div>
     </div>
+    <script>
+        window.onload = function() {
+            {% with messages = get_flashed_messages(category_filter=["error"]) %}
+                {% if messages %}
+                    var message = "{{ messages[0] }}"; // Assuming you only have one message at a time
+                    // Call a function to display this message
+                    displayWarning(message);
+                {% endif %}
+            {% endwith %}
+        };
+
+        function displayWarning(message) {
+            // Display the warning message in a dynamic way
+            alert(message); // For simplicity, using an alert box. You can replace this with custom logic.
+        }
+    </script>
     <div class="box">
         <div class="title">Sign In</div>
         <form method="POST" action="/login">

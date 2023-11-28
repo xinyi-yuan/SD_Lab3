@@ -5,11 +5,27 @@
     <title>Signup</title>
 </head>
 <body>
+    <script>
+        window.onload = function() {
+            {% with messages = get_flashed_messages(category_filter=["error", "success"]) %}
+                {% if messages %}
+                    var message = "{{ messages[0] }}"; // Assuming you only have one message at a time
+                    displayMessage(message);
+                {% endif %}
+            {% endwith %}
+        };
+
+        function displayMessage(message) {
+            // Here you can implement a custom modal/pop-up logic
+            // For simplicity, using an alert box
+            alert(message);
+        }
+    </script>
+
     <div class="signup"></div>
     <div class="background"></div>
     <div class="box">
         <div class="signup">Sign Up</div>
-
         <form method="POST" action="/signup">
             <div class="email">Email:</div>
             <label for="email">
