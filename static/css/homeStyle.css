@@ -24,6 +24,29 @@
     display: flex;
 }
 
+.team-member-dropdown {
+    position: absolute;
+    width: auto;
+    height: 40px;
+    left: 59%;
+    top: 40px;
+
+    font-family: 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #f0ff8b;
+    border-radius: 10px;
+}
+
+.team-member-dropdown option {
+    background-color: white;
+}
+
+.team-member-dropdown:hover {
+    background-color: rgba(240,255,139,0.76);
+}
+
 .projectTab {
     position: absolute;
     width: 100%;
