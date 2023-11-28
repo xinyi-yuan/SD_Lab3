@@ -181,13 +181,29 @@
     width: 435px;
     height: 230px;
     left: 50px;
-    top: 30px;
+    top: 40px;
+
+    font-family: Papyrus, fantasy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+.aboutContent {
+    position: absolute;
+    width: 90%;
+    height: 230px;
+    left: 70px;
+    top: 100px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 30px;
-    line-height: 29px;
+    font-size: 20px;
+    line-height: 40px;
 
     color: #000000;
 }
