@@ -2,14 +2,14 @@
 #import psycopg2
 from flask import Flask, render_template, request, flash, session, redirect, url_for
 from werkzeug.security import generate_password_hash, check_password_hash
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from datetime import timedelta
 
 app = Flask(__name__)
 app.secret_key = "0000"
 app.permanent_session_lifetime = timedelta(minutes=10)
 
-load_dotenv()  # Load environment variables from .env file
+#load_dotenv()  # Load environment variables from .env file
 #
 # DATABASE_URL = os.environ.get('DATABASE_URL')
 # if DATABASE_URL is None:
