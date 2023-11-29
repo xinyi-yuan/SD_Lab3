@@ -117,8 +117,9 @@
 
 .content {
     position: absolute;
+    overflow: auto;
     width: 100%;
-    height: 310%;
+    min-height: 400%;
     left: 0;
     top: 30%;
 
@@ -224,7 +225,7 @@ color: rgba(0, 0, 0, 0.77);
 
     position: absolute;
     width: 60%;
-    height: 30%;
+    height: 700px;
     left: 20%;
     top: 1150px;
 
