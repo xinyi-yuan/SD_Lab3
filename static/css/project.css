@@ -1,4 +1,3 @@
-
 .header {
     position: absolute;
     width: 577px;
@@ -126,4 +125,362 @@
     background: linear-gradient(180deg, rgba(219, 229, 255, 0) 0%, #DBF9FF 100%);
 }
 
+/* Main section */
+.mainSection {
+    position: absolute;
+    width: 577px;
+    height: 1158px;
+    left: 0px;
+    top: 67px;
 
+    background: linear-gradient(180deg, rgba(219, 229, 255, 0) 0%, #DBF9FF 100%);
+}
+
+/* Projects */
+.projects {
+    position: absolute;
+    width: 509px;
+    height: 1068px;
+    left: 34px;
+    top: 6px;
+}
+
+
+/* Lab3 */
+.lab3OuterBackground {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: 34px;
+    top: 777px;
+}
+
+
+/* Rectangle 10 */
+.lab3OuterBox {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: calc(50% - 509px / 2);
+    top: 777px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Picture of Lab3 */
+.lab3PictureBackgroundBox {
+    position: absolute;
+    width: 267px;
+    height: 234px;
+    left: 45px;
+    top: 807px;
+}
+
+
+/* Rectangle 13 */
+.lab3PictureBox {
+    position: absolute;
+    width: 44%;
+    height: 20%;
+    left: 45px;
+    top: 820px;
+
+    background: url(https://raw.githubusercontent.com/xinyi-yuan/SD_Lab3/6501fea63a78b97f65f689870e3ead248f3e4ab3/profilePics/Lab3picResized.png);
+}
+
+
+/* Description */
+.lab3DescriptionBackgroundBox {
+    position: absolute;
+    width: 201px;
+    height: 241px;
+    left: 323px;
+    top: 817px;
+}
+
+
+/* Rectangle 14 */
+.lab3TextBox {
+    position: absolute;
+    width: 201px;
+    height: 241px;
+    left: 323px;
+    top: 817px;
+
+    background: #DBF9FF;
+}
+
+/* Brief Description Tools used Date/Duration */
+.lab3DescriptionText {
+    position: absolute;
+    width: 199px;
+    height: 238px;
+    left: 324px;
+    top: 819px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+
+    color: #000000;
+}
+
+
+/* Website */
+.lab3TitleText {
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    left: 57px;
+    top: 797px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* Lab2 */
+.lab2OuterBackground {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: 34px;
+    top: 430px;
+}
+
+
+/* Rectangle 10 */
+.lab2OuterBox {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: calc(50% - 509px / 2);
+    top: 430px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Picture of Lab2 */
+.lab2PictureBackgroundBox {
+    position: absolute;
+    width: 188px;
+    height: 241px;
+    left: 336px;
+    top: 473px;
+}
+
+
+/* Rectangle 13 */
+.lab2PictureBox {
+    position: absolute;
+    width: 188px;
+    height: 241px;
+    left: 336px;
+    top: 473px;
+
+    background: url(https://github.com/xinyi-yuan/SD_Lab3/blob/main/profilePics/receiver_resized.png?raw=true);
+}
+
+/* Description */
+.lab2DescriptionBackgroundBox {
+    position: absolute;
+    width: 266.03px;
+    height: 241.15px;
+    left: 57px;
+    top: 473px;
+}
+
+
+/* Rectangle 14 */
+.lab2TextBox {
+    position: absolute;
+    width: 266px;
+    height: 241px;
+    left: 57px;
+    top: 473px;
+
+    background: #DBF9FF;
+}
+
+/* For this lab we implemented an “electric eye” light beam-interrupter safety system transmitting an infrared signal from a given transmitter to a designed receiver. We used discrete component filters to implement sufficient filtering so as to react only to the presence or absence of the IR signal and a microcontroller interfaced to a Python process to send an alert text message when the beam is interrupted. */
+.lab2DescriptionText {
+    position: absolute;
+    width: 264px;
+    height: 238px;
+    left: 59px;
+    top: 476px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+
+/* Receiver */
+.lab2TitleText {
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    left: 355px;
+    top: 453px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: #000000;
+}
+
+
+/* Lab1 */
+.lab1OuterBackground {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: 34px;
+    top: 83px;
+}
+
+
+/* Rectangle 10 */
+.lab1OuterBox {
+    position: absolute;
+    width: 509px;
+    height: 297px;
+    left: calc(50% - 509px / 2);
+    top: 83px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+/* Picture of Lab1 */
+.lab1PictureBackgroundBox {
+    position: absolute;
+    width: 188px;
+    height: 243px;
+    left: 57px;
+    top: 126px;
+}
+
+
+/* Rectangle 13 */
+.lab1PictureBox {
+    position: absolute;
+    width: 188px;
+    height: 243px;
+    left: 57px;
+    top: 126px;
+
+    background: url(https://raw.githubusercontent.com/xinyi-yuan/SD_Lab3/043414de9a09f693eaa83fbd9f445d20280e57a4/profilePics/Box_front_resized.png);
+}
+
+/* Description */
+.lab1DescriptionBackgroundBox {
+    position: absolute;
+    width: 267px;
+    height: 245px;
+    left: 258px;
+    top: 126px;
+}
+
+
+/* Rectangle 14 */
+.lab1TextBox {
+    position: absolute;
+    width: 266px;
+    height: 245px;
+    left: 258px;
+    top: 126px;
+
+    background: #DBF9FF;
+}
+
+.lab1DescriptionText {
+    /* We created a temperature sensing system that displays the temperature in degrees Celsius on a hardware display and communicates with a computer that logs the temperature data and shows a graph of the temperature over time. The system sends an alert text message if the temperature goes outside set thresholds. We used an Arduino Uno, LCD display, DHT11 temperature sensor, and computer connected via Bluetooth serial interface with the computer application in Python. */
+    position: absolute;
+    width: 45%;
+    height: 245px;
+    left: 261px;
+    top: 126px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+
+/* Temperature */
+.lab1TitleText {
+    position: absolute;
+    width: 50%;
+    height: 20px;
+    left: 57px;
+    top: 103px;
+
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    color: #000000;
+}
+
+
+/* Group Projects */
+.groupProjectsText {
+    position: absolute;
+    width: 299px;
+    height: 65px;
+    left: 139px;
+    top: 6px;
+
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, #42484B 0%, #01B9F4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
