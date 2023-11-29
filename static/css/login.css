@@ -3,9 +3,9 @@
 
     position: relative;
     width: 100%;
-    height: 756px;
+    height: 100%;
 
-    background: #F8F8F8;
+    background: #FFFFFF;
 }
 
 .background {
@@ -27,10 +27,11 @@
 .box {
     /* box */
 
-    position: absolute;
+    margin: auto;
+    position: relative;
     width: 373px;
     height: 270px;
-    left: 102px;
+    left: 0px;
     top: 94px;
 
     background: #FFFFFF;
@@ -186,7 +187,7 @@
     /* Sign up */
 
     position: absolute;
-    width: 139px;
+    width: 120px;
     height: 21px;
     left: 178px;
     top: 224px;
