@@ -9,13 +9,60 @@
         <div class="homeTab">
             <a href="{{ url_for('home') }}" class="homeButton">Home</a>
         </div>
-        <div class="loginTab">
+<!--        <div class="loginTab">
             <a href="{{ url_for('login') }}" class="loginButton">Login</a>
         </div>
         <div class="signupTab">
             <a href="{{ url_for('signup') }}" class="signupButton">SignUp</a>
+        </div>-->
+    </div>
+    <div class="wrapper"></div>
+    <div class="content">
+        <div class="mainSection">
+            <div class="projects">
+                <div class="groupProjectsText">Group Projects </div>
+            </div>
+            <div class="lab1OuterBackground"></div>
+            <div class="lab1OuterBox"></div>
+            <div class="lab1TitleText">Temperature Measurement System</div>
+            <div class="lab1PictureBackgroundBox"></div>
+            <div class="lab1PictureBox"></div>
+            <div class="lab1DescriptionBackgroundBox"></div>
+            <div class="lab1TextBox"></div>
+            <div class="lab1DescriptionText">We created a temperature sensing system that displays the temperature in degrees Celsius on a hardware
+                    display and communicates with a computer that logs the temperature data and shows a graph of the temperature over time.
+                    The system sends an alert text message if the temperature goes outside set thresholds. We used an Arduino Uno, LCD display,
+                    DHT11 temperature sensor, and computer connected via Bluetooth serial interface with the computer application in Python.
+            </div>
+
+            <div class="lab2OuterBackground"></div>
+            <div class="lab2OuterBox"></div>
+            <div class="lab2TitleText">Infrared Sensor/Receiver</div>
+            <div class="lab2PictureBackgroundBox"></div>
+            <div class="lab2PictureBox"></div>
+            <div class="lab2DescriptionBackgroundBox"></div>
+            <div class="lab2TextBox"></div>
+            <div class="lab2DescriptionText">For this lab we implemented an “electric eye” light beam-interrupter safety system transmitting an
+                infrared signal from a given transmitter to a designed receiver. We used discrete component filters to implement sufficient
+                filtering so as to react only to the presence or absence of the IR signal and a microcontroller interfaced to a Python process
+                to send an alert text message when the beam is interrupted.
+            </div>
+
+            <div class="lab3OuterBackground"></div>
+            <div class="lab3OuterBox"></div>
+            <div class="lab3TitleText">Portfolio Website</div>
+            <div class="lab3PictureBackgroundBox"></div>
+            <div class="lab3PictureBox"></div>
+            <div class="lab3DescriptionBackgroundBox"></div>
+            <div class="lab3TextBox"></div>
+            <div class="lab3DescriptionText">This lab had us sharpening our design, layout and HTML/CSS skills by designing and
+                building the very website that you're currently reading (even the EE majors pitched in!)
+            </div>
         </div>
     </div>
-<div class="content">
+<!--    <div class="signupTab">
+     <a href="{{ url_for('signup') }}" class="signupButton">SignUp</a>
+    </div>-->
+
 </body>
 </html>
