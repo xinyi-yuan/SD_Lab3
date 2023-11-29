@@ -5,30 +5,46 @@
     <title>Login</title>
 </head>
 <body>
-    <div class="header"></div>
-    <div class="background">
-        <div class="box">
-            <div class="title">Sign In</div>
+    <div class="header">
+        <div class="background"></div>
+    </div>
+    <script>
+        window.onload = function() {
+            {% with messages = get_flashed_messages(category_filter=["error"]) %}
+                {% if messages %}
+                    var message = "{{ messages[0] }}"; // Assuming you only have one message at a time
+                    // Call a function to display this message
+                    displayWarning(message);
+                {% endif %}
+            {% endwith %}
+        };
 
-            <form method="POST" action="/login">
-                <div class="user_text">Name:</div>
-                <label for="name">
-                    <input type="text" class="user_box" name="name" id="name" required>
-                </label>
+        function displayWarning(message) {
+            // Display the warning message in a dynamic way
+            alert(message); // For simplicity, using an alert box. You can replace this with custom logic.
+        }
+    </script>
+    <div class="box">
+        <div class="title">Sign In</div>
+        <form method="POST" action="/login">
+            <div class="user_text">Name:</div>
+            <label for="name">
+                <input type="text" class="user_box" name="name" id="name" required>
+            </label>
 
-                <div class="pword_text">Password:</div>
-                <label for="pword">
-                    <input type="password" class="pword_box" name="pword" id="pword" required>
-                </label>
+            <div class="pword_text">Password:</div>
+            <label for="pword">
+                <input type="password" class="pword_box" name="pword" id="pword" required>
+            </label>
 
-                <button type="submit" class="button">Sign In</button>
-            </form>
-
-            <div class="forgot">Forgot password</div>
-            <div class="sign_up_text">Don't have an account?</div>
-            <div class="sign_up">
-                <a href="{{ url_for('signup') }}">Sign up</a>
-            </div>
+            <button type="submit" class="button_text">Sign In</button>
+        </form>
+        <div class="forgot">
+            <a href="{{ url_for('forgot') }}">Forgot password</a>
+        </div>
+        <div class="sign_up_text">Don't have an account?</div>
+        <div class="sign_up">
+            <a href="{{ url_for('signup') }}">Sign up</a>
         </div>
     </div>
 </body>
