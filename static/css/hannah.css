@@ -177,7 +177,7 @@ color: rgba(0, 0, 0, 0.77);
 
 .aboutText {
     position: absolute;
-    width: 435px;
+    width: 80%;
     height: 230px;
     left: 50px;
     top: 30px;
@@ -535,5 +535,26 @@ color: rgba(0, 0, 0, 0.77);
     color: #F8F8F8; /* Keep text color the same */
 }
 
+.aboutBodyText {
+    position: absolute;
+    width: 80%;
+    height: 230px;
+    left: 50px;
+    top: 30px;
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 50px;
+
+    color: #000000;
+}
+.commentBlock {
+    position: absolute;
+    width: 80%;
+    height: auto;
+    left: 100px;
+    top: 1000px;
+}
 
